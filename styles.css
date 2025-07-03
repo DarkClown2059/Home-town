@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    color: #82a5ca;
+    text-align: center;
+}
+#header{
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url('images/hand-monument-chandigarh-chandigarh-city-1-hero.jpeg');
+    padding: 10px 0 30px 0;
+}
+#header-title{
+    color: white;
+    font-size:bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+
+}
+#description{
+    color: white;
+    font-size: medium;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0.5);
+    
+}
