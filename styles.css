@@ -1,7 +1,13 @@
 body{
     margin: 0;
-    color: #82a5ca;
+    padding: 0;
     text-align: center;
+    background-color: #f0f0f0;
+    font-family: 'Libertinus Mono', monospace;
+}
+@font-face {
+    font-family: Wasted;
+    src: url(Wasted-Vindey.ttf);
 }
 #header{
     width: 100%;
@@ -13,7 +19,7 @@ body{
 }
 #header-title{
     color: white;
-    font-size:bold;
+    font-size: 2em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     
 
@@ -21,6 +27,72 @@ body{
 #description{
     color: white;
     font-size: medium;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     
+}
+.stylebackground{
+    background:linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 20px;
+    font-family: wasted, sans-serif;
+}
+.ul{
+    margin: 10px auto;
+    padding:5px;
+    list-style-type: none;
+    display: flex;     
+    justify-content: center;       
+    gap: 20px;                  
+}
+.ul li{
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     max-width: 400px;
+    margin: 0 auto;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;    
+}
+.ul li:hover{
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.city-image{
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#card{
+    background: linear-gradient(to right, #4f8a8b, #fbd46d);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #2d3142;
+}
+#card a {
+    color: #0A66C2;
+    text-decoration: none;
+}
+
+#card a:hover {
+    color: #22223b;
+    text-decoration: underline;
+}
+#footer{
+    background-color: #333;
+    color: white;
+    padding: 3px 0;
+    position:relative;
+    bottom: 0;
+    width: 100%;
 }
