@@ -28,7 +28,6 @@ This is a personal project created to:
 ## 📷 Features
 
 - Beautiful single-page design  
-- Responsive layout for desktop and mobile  
 - Smooth and clean UI elements  
 - Visual showcase of the town using background imagery and fonts  
 - Light, fast, and minimalist
